@@ -1,8 +1,8 @@
 package validator
 
 import (
+	"github.com/glennsarti/puppet-parser/parser"
 	"github.com/lyraproj/issue/issue"
-	"github.com/lyraproj/puppet-parser/parser"
 )
 
 type tasksChecker struct {

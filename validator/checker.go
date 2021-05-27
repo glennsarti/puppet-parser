@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/glennsarti/puppet-parser/literal"
+	"github.com/glennsarti/puppet-parser/parser"
 	"github.com/lyraproj/issue/issue"
-	"github.com/lyraproj/puppet-parser/literal"
-	"github.com/lyraproj/puppet-parser/parser"
 )
 
 var DoubleColonExpr = regexp.MustCompile(`::`)

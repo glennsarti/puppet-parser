@@ -54,7 +54,7 @@ $ export PATH="$PATH:$GOPATH/bin"
 ```
 $ mkdir -p "$GOPATH/src/github.com/lyraproj"
 $ cd "$GOPATH/src/github.com/lyraproj"
-$ git clone git@github.com:lyraproj/puppet-parser.git
+$ git clone git@github.com:glennsarti/puppet-parser.git
 ```
 
 #### Install the command
@@ -62,7 +62,7 @@ The command is now ready to be installed using `go install`. Since this command 
 setting of `GOPATH` it doesn't matter what directory you're in when executing it. The binary
 will be installed in `$GOPATH/bin` regardless.
 ```
-$ go install github.com/lyraproj/puppet-parser/parse
+$ go install github.com/glennsarti/puppet-parser/parse
 ```
 
 #### Use the command

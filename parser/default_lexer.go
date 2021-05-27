@@ -6,8 +6,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
+	"github.com/glennsarti/puppet-parser/lexer"
 	"github.com/lyraproj/issue/issue"
-	"github.com/lyraproj/puppet-parser/lexer"
 )
 
 // Recursive descent lexer for the Puppet language.

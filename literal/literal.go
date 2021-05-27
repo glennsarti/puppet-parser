@@ -1,7 +1,7 @@
 package literal
 
 import (
-	"github.com/lyraproj/puppet-parser/parser"
+	"github.com/glennsarti/puppet-parser/parser"
 )
 
 const notLiteral = `not literal`

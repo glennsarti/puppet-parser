@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/glennsarti/puppet-parser/parser"
 	"github.com/lyraproj/issue/issue"
-	"github.com/lyraproj/puppet-parser/parser"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/glennsarti/puppet-parser/lexer"
 	"github.com/lyraproj/issue/issue"
-	"github.com/lyraproj/puppet-parser/lexer"
 )
 
 // Recursive descent context for the Puppet language.

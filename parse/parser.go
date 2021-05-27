@@ -9,11 +9,11 @@ import (
 	"os"
 	"strings"
 
+	"github.com/glennsarti/puppet-parser/json"
+	"github.com/glennsarti/puppet-parser/parser"
+	"github.com/glennsarti/puppet-parser/pn"
+	"github.com/glennsarti/puppet-parser/validator"
 	"github.com/lyraproj/issue/issue"
-	"github.com/lyraproj/puppet-parser/json"
-	"github.com/lyraproj/puppet-parser/parser"
-	"github.com/lyraproj/puppet-parser/pn"
-	"github.com/lyraproj/puppet-parser/validator"
 )
 
 // Program to parse and validate a .pp or .epp file
